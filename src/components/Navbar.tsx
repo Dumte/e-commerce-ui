@@ -33,7 +33,7 @@ const Navbar = () => {
         </Link>
         <Bell className="w-4 h-4 text-gray-600 cursor-pointer hover:text-gray-800" />
         <ShoppingCartIcon />
-        <Link href="/login" className="ml-2 md:ml-0">Sign in</Link>
+        <Link href="/login" className="ml-1 md:ml-0">Sign in</Link>
       </div>
     </nav>
   );
