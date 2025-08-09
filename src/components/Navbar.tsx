@@ -26,7 +26,7 @@ const Navbar = () => {
       </Link>
 
       {/* RIGHT */}
-      <div className="flex items-center gap-6 ">
+      <div className="flex items-center gap-3 md:gap-6 ">
         <SearchBar />
         <Link href="/">
           <Home className="w-4 h-4 text-gray-600 cursor-pointer hover:text-gray-800" />
