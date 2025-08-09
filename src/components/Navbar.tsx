@@ -17,12 +17,12 @@ const Navbar = () => {
           className="w-6 h-6 md:w-9 md:h-9"
         />
 
-        <p className="text-xs md:block  md:text-md font-medium tracking-wider uppercase">
+        <h1 className="text-xs md:block  md:text-md font-medium tracking-wide uppercase">
           Elvis{" "}
           <span className="bg-gradient-to-r from-amber-500 to-red-800 text-transparent bg-clip-text">
             boutique
           </span>
-        </p>
+        </h1>
       </Link>
 
       {/* RIGHT */}
