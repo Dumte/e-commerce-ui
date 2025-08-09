@@ -20,7 +20,7 @@ const Navbar = () => {
         <p className="hidden md:block  text-md font-medium tracking-wider uppercase">
           Elvis{" "}
           <span className="bg-gradient-to-r from-amber-500 to-red-800 text-transparent bg-clip-text">
-            botique
+            boutique
           </span>
         </p>
       </Link>
