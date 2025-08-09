@@ -17,7 +17,7 @@ const Navbar = () => {
           className="w-6 h-6 md:w-9 md:h-9"
         />
 
-        <h1 className="text-xs md:block  md:text-md font-medium tracking-wide uppercase">
+        <h1 className="md:block  text-md font-medium tracking-wide uppercase">
           Elvis{" "}
           <span className="bg-gradient-to-r from-amber-500 to-red-800 text-transparent bg-clip-text">
             boutique
@@ -33,7 +33,7 @@ const Navbar = () => {
         </Link>
         <Bell className="w-4 h-4 text-gray-600 cursor-pointer hover:text-gray-800" />
         <ShoppingCartIcon />
-        <Link href="/login">Sign in</Link>
+        <Link href="/login" className="ml-2 md:ml-0">Sign in</Link>
       </div>
     </nav>
   );
